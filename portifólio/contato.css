@@ -1,0 +1,142 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image:linear-gradient(to left, #3f3f3f,#000000) ;
+    overflow-x: hidden; /* Impede a rolagem horizontal */
+
+}
+/* Estilos para smartphones */
+@media only screen and (max-width: 480px) {
+    /* Estilos específicos para smartphones aqui */
+    body {
+        font-size: 14px;
+    }
+    /* Ajustes específicos para outros elementos, como imagens, menus, etc. */
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilos específicos para tablets aqui */
+    body {
+        font-size: 16px;
+    }
+    /* Ajustes específicos para outros elementos */
+}
+
+/* Estilos para tablets grandes */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos específicos para tablets grandes aqui */
+    body {
+        font-size: 18px;
+    }
+    /* Ajustes específicos para outros elementos */
+}
+
+/* Estilos para desktops */
+@media only screen and (min-width: 1025px) {
+    /* Estilos específicos para desktops aqui */
+    body {
+        font-size: 20px;
+    }
+    /* Ajustes específicos para outros elementos */
+}
+
+
+.nome {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    margin-left: 650px;
+    margin-top: 130px;
+    width: 500px;
+    height: 30px;
+    border: 2px
+ 
+
+
+
+
+    }
+
+.email {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    margin-left: 650px;
+    margin-top: 180px;
+    width: 500px;
+    height: 30px;
+}
+
+.mesagem {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    margin-left: 650px;
+    margin-top: 230px;
+    width: 500px;
+    height: 80px;
+}
+
+h1 {
+    position: absolute;
+    color: rgb(133, 243, 243);
+    font-family: Arial, sans-serif;
+    margin-left: 690px;
+    margin-top: 150px;
+    width: 500px;
+    height: 25px;
+}
+
+.btn {
+    position: absolute;
+    background-color:rgb(133, 243, 243) ;
+    margin-left: 650px;
+    margin-top: 350px;
+    width: 500px;
+    height: 50px;
+    border: 15px black;
+}
+
+button:active {
+    border-color: #f8f8f8;     /* Cor da borda quando o botão está pressionado */
+    background-color:rgb(255, 255, 255) ; /* Cor de fundo quando o botão está pressionado */
+    }
+
+h2{
+    color: white;
+    font-size: 30px;
+    border: 5px white;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 225px;
+    margin-top: 130px;
+
+}
+
+.fab {
+    font-size: 24px;  /* Tamanho do ícone */
+    margin-right: -100px; /* Espaçamento à direita do ícone (opcional) */
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+p {
+    color: white;
+    margin-top: 150px;
+margin-left: 20px;
+}
+
+
+a[href="mailto:leonardogomessilva1910@gmail.com"] {
+    position: fixed;   /* Fixa o elemento na tela */
+    top: 430px;         /* Move o elemento para baixo */
+    left: 20px;        /* Alinha o elemento à esquerda da tela */
+    color: #fffdfd;       /* Define a cor do link (opcional) */
+    font-size: 16px;   /* Define o tamanho da fonte (opcional) */
+    /* Adicione outras propriedades conforme necessário */
+}
+
+
+
+
+
